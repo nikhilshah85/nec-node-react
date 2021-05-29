@@ -1,0 +1,61 @@
+Web Revolution
+	-- using internet around 15 Years
+	-- Desktop (office/home/cybercafe)
+	-- Browser
+	-- Lan / telephone/ wifi (faster and mostly static)
+	-- Surfing / download / chatting
+	-- XML commnunication - web services
+		<temperature>30</temperature> - plain text
+server centric app	
+---------------------------------------------------------------------
+	-- Mobile / Tablets
+		Resolution -- create contents, which is resolution independent
+		Habbits -- Twist the phone, zoom in zoom out, Cameras, locations etc
+		Hardware -- apps needs to access, web cam, geo location
+		Data - 2G - 4G -- this is not static, fluctuating
+		Social / Shopping / Dineing
+		APPS - offline browsing
+		JSON  -- 30 - binary text
+	.net app/java -- server side -- not suitable for above requirements
+client centric app (no fixed resolution)	
+	Chrome - Faster and lighter (Created by Google, and it has been developed using
+			c, c++ , V8 engine) -- this light and fast, responsive, runs on a single thread of OS - (not disturing OS much)
+
+	1. Server - Node, uses the same google engine, free open source, developed for web revolution
+	2. React - for UI development (client side development framework)
+
+
+		Node
+-- Web Server -- developed by Google
+-- integrates with other technologies
+-- Works on Modules (it has more than 20 million modules)
+-- is a single threaded application
+-- can be installed and will on Wins/Mac/linux
+-- used for Web APPs(Html, React, Angular, backbone, Mocha, chai) 
+-- OpenSSL, Web socket
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
