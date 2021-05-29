@@ -1,0 +1,61 @@
+db - database
+collection - instead of tables
+	we dont need to create the collections, no worry about the schema
+	we can add any number of columns(properties)
+	we store the data in json format
+	we dont call a record here, we call it document (row is a document here)
+	all the rows are different 
+	by default all the documents will have a unique id, id is the default property/column
+		if you do not pass an id, a default id (created at run time will be added)
+
+	----------
+
+Create Database
+	use productsDB; -- if this database is there, it will be used else it will be created and then
+				used
+
+Create Colltion
+
+	similar thing for collection, productCollection
+Insert
+
+		db.productCollection.insert({id:101,pName:'Pepsi'})
+		db.productCollection.insert([{id:101,pName:'Pepsi'},
+					{id:101,pName:'Pepsi'},
+					{id:101,pName:'Pepsi'},
+					{id:101,pName:'Pepsi'}])
+
+		db.myFriends.insert({....})
+Select *
+		db.productCollection.find() 
+		db.productCollection.find({ parameter }) 
+		db.productCollection.find().pretty()		
+
+
+Delete
+		db.productCollection.remove()
+		db.productCollection.remove({"pCategory":"Junk-Food"})
+update
+		db.productCollection.update( {target},{$set{ changes});
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
